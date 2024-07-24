@@ -11,3 +11,51 @@
 ul {
   list-style: none;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#user-list, #repos-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#user-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#user-list img {
+  margin-right: 10px;
+}
+
+#user-list a {
+  margin-right: 10px;
+}
+
+#repos-list li {
+  margin-bottom: 10px;
+}
